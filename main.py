@@ -17,8 +17,8 @@ for file in files:
     f_in = open(file, 'rb')
     dsc_array_in.frombytes(f_in.read())
     f_in.close()
-	
-    # FT Magic
+
+    # F Magic
     dsc_array_out.append(0x10120116)
 
     # dsc_array_in[i] is the command id
